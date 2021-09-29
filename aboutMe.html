@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="fontawesome/js/all.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Explora&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>About Me</title>
+    <style>
+        html,
+        body {
+            font: 'Ubuntu', sans-serif;
+            background-color: darkslategrey;
+            color: azure;
+        }
+
+        #top {
+            font-family: 'Explora', cursive;
+            min-height: 100%;
+            min-height: calc(100% - 56px);
+            padding-top: 56px;
+        }
+
+        .card {
+            color: dimgray;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#landing">Elizabeth DeCarlo<span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Homepage</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container landing d-flex justify-content-center flex-column align-items-center">
+        <div class="row mx-auto" id="top">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Places I Have Visited</h4>
+        </div>
+        <!-- used cards and collapse -->
+        <div class="row">
+            <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="card border-info" style="width: 18rem;">
+                    <div class="card-header">
+                        Rome, Italy
+                    </div>
+                    <img class="card-img-top" src="https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg" alt="Card image cap">
+                    
+                    <div class="card-body">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                        <br />
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                A beautiful European country, taking in the beauty in the art and architecture.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="card border-info" style="width: 18rem;">
+                    <div class="card-header">
+                        Disney World
+                    </div>
+                    <img class="card-img-top" src="https://images.indianexpress.com/2021/06/Walt-Disney-World_1200.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                        <br />
+                        <div class="collapse" id="collapseExample1">
+                            <div class="card card-body">
+                                The most magical place on earth.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="card border-info" style="width: 18rem;">
+                    <div class="card-header">
+                        Boston, MA
+                    </div>
+                    <img class="card-img-top" src="https://fourblock.org/wp-content/uploads/2020/07/hero-boston.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                        <br />
+                        <div class="collapse" id="collapseExample2">
+                            <div class="card card-body">
+                                A city that is filled with beautiful architecture and scenic views.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="card border-info" style="width: 18rem;">
+                    <div class="card-header">
+                        San Francisco, CA
+                    </div>
+                    <img class="card-img-top" src="https://cdn.abcotvs.com/dip/images/3687995_070118-kgo-shutterstock-ggb-img.jpg?w=800&r=16%3A9" alt="Card image cap">
+                    <div class="card-body">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                        <br />
+                        <div class="collapse" id="collapseExample3">
+                            <div class="card card-body">
+                                An adventurous city with many things to see and do.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="card border-info" style="width: 18rem;">
+                    <div class="card-header">
+                        Outer Banks, NC
+                    </div>
+                    <img class="card-img-top" src="https://thisisraleigh.com/wp-content/uploads/2020/08/things-to-do-in-obx.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                        <br />
+                        <div class="collapse" id="collapseExample4">
+                            <div class="card card-body">
+                                A relaxing beach where you can decompress and enjoy the view.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="card border-info" style="width: 18rem;">
+                    <div class="card-header">
+                        Niagara Falls, NY
+                    </div>
+                    <img class="card-img-top" src="https://www.planetware.com/photos-large/USNY/new-york-niagara-falls-state-park.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                        <br />
+                        <div class="collapse" id="collapseExample5">
+                            <div class="card card-body">
+                                A breathtaking place with incredible waterfalls.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+    </div>
+    
+</body>
+</html>
